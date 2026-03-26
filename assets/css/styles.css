@@ -3,3 +3,38 @@
 * {
 	font-family: Arial;
 }
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 1rem;
+	background-color: black;
+	color: whitesmoke;
+	font-size: 5rem;
+	overflow: hidden;
+	background: url("../img/flames.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	transition-property: transform;
+	transition-duration: 3s;
+}
+
+div {
+	transition-property: transform;
+    transition-duration: 3s;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	margin: 10% 4rem 0 4rem;
+}
+
+.last {
+	padding-bottom: 2rem;
+	border-bottom: 2px solid rgb(220, 200, 180);
+}
