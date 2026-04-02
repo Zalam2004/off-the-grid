@@ -19,13 +19,6 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	transition-property: transform;
-	transition-duration: 3s;
-}
-
-div {
-	transition-property: transform;
-    transition-duration: 3s;
 }
 
 .grid-container {
@@ -37,4 +30,9 @@ div {
 .last {
 	padding-bottom: 2rem;
 	border-bottom: 2px solid rgb(220, 200, 180);
+}
+
+div {
+	transition-property: transform;
+    transition-duration: 3s;
 }
